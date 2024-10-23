@@ -1,4 +1,4 @@
-# prometheus-grafana-k8s
+# Deployment Prometheus-Grafana on Kubernetes
 k8s monitoring using prometheus &amp; grafana on kubernetes
 
 [A](https://www.bigbinary.com/blog/prometheus-and-grafana-integration)
