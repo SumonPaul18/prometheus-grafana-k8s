@@ -10,10 +10,8 @@ kubectl get pod
 kubectl describe pod prometheus-my-kube-prometheus-stack-prometheus-0
 kubectl get pod
 kubectl get svc
-kubectl expose service kube-prometheus-stack-prometheus --type=NodePort --target-port=9090 --name=prometheus-node-port-service
 kubectl expose service my-kube-prometheus-stack-prometheus --type=NodePort --target-port=9090 --name=prometheus-node-port-service
 kubectl get svc
-kubectl expose service kube-prometheus-stack-grafana --type=NodePort --target-port=3000 --name=grafana-node-port-service
 kubectl expose service my-kube-prometheus-stack-grafana --type=NodePort --target-port=3000 --name=grafana-node-port-service
 kubectl get svc
 kubectl get pv
