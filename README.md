@@ -18,6 +18,7 @@ kubectl get pv
 kubectl get pvc
 helm ls
 kubectl get secrets
+kubectl get secret --namespace default my-kube-prometheus-stack-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
 kubectl get svc
 helm list
 helm status my-kube-prometheus-stack
